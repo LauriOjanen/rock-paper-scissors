@@ -29,3 +29,14 @@ span {
     font-size: larger;
     border: 2px;
 }
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2 + h2 {
+    margin-left: 100px;
+}
