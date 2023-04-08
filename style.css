@@ -40,3 +40,22 @@ span {
 h2 + h2 {
     margin-left: 100px;
 }
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.choice h2 {
+    margin: 0;
+}
